@@ -1,10 +1,39 @@
 # churn
+#  Bank Customer Churn Prediction
 
-This project focuses on predicting customer churn in the banking sector using Machine Learning. Customer churn refers to customers who stop using the bank's services and move to another bank. Retaining existing customers is more cost-effective than acquiring new ones, making churn prediction an important business problem.
+### Machine Learning Project
 
-The project uses customer information such as demographic details, account information, banking products, balance, credit score, tenure, and customer activity to identify customers who are likely to leave the bank. After preprocessing the data and performing exploratory data analysis (EDA), machine learning classification models are trained to predict customer churn.
+This project predicts whether a bank customer is likely to **stay or leave the bank (churn)** using Machine Learning.
 
-The prediction results help banks identify at-risk customers early and take proactive actions such as providing personalized offers, improving customer service, and implementing loyalty programs. This enables banks to increase customer satisfaction, improve retention, and support long-term business growth.
+### Objective
 
->Project Goal:
-To develop an accurate machine learning model that predicts whether a customer will stay with the bank or leave (churn), helping the bank make better customer retention decisions.
+To identify customers who are likely to churn and help banks take early actions to improve customer retention.
+
+###  What I Did
+
+* Cleaned and prepared the customer data
+* Performed **Exploratory Data Analysis (EDA)**
+* Selected relevant features
+* Trained Machine Learning classification models
+* Evaluated model performance
+* Predicted customer churn
+
+###  Technologies Used
+
+**Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | Jupyter Notebook**
+
+###  Key Features
+
+* Credit Score
+* Age
+* Tenure
+* Balance
+* Number of Products
+* Customer Activity
+* Estimated Salary
+
+###  Outcome
+
+The model helps identify **high-risk customers** so banks can take proactive steps such as personalized offers, better customer service, and loyalty programs.
+
+
